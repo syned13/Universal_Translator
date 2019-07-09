@@ -36,7 +36,7 @@ Please make sure to update tests as appropriate.
 
 ## Diagrams
 
-![Alt text](relative/path/to/Class_Diagram.jpg?raw=true "Title")
+![Alt text](Class_Diagram.jpg?raw=true "Title")
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
