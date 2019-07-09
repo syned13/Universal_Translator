@@ -1,24 +1,27 @@
 # Universal_Translator
-Console app to convert different distance measure
+Console app to convert different distance measures from the metric system.
 
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Clone this repository using the CLI.
 
 ```bash
-pip install foobar
+git clone https://github.com/syned13/Universal_Translator.git
 ```
 
 ## Usage
+You should put a .txt file called ###measures.txt in the proyect root directory
 
-```python
-import foobar
+The file should have one conversion information per line, as follows:
+<magnitude> <unit> <targetUnit>
+<anotherMAgnitude> <unit> <targetUnit>
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+Then you simply execute:
+```bash
+python run.py
 ```
+A "convertedMeasures" file will be generated.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
