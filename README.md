@@ -14,7 +14,7 @@ git clone https://github.com/syned13/Universal_Translator.git
 You should put a .txt file called <b>measures.txt</b> in the proyect root directory
 
 The file should have one conversion information per line, as follows:
-<magnitude> <unit> <targetUnit>
+[magnitude] [unit] <targetUnit>
 <anotherMAgnitude> <unit> <targetUnit>
 
 Then you simply execute:
