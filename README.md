@@ -36,6 +36,7 @@ Please make sure to update tests as appropriate.
 
 ## Diagrams
 
+![Alt text](CRC_Cards.jpg?raw=true "Title")
 ![Alt text](Class_Diagram.jpg?raw=true "Title")
 
 ## License
