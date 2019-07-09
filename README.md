@@ -1,5 +1,5 @@
 # Universal_Translator
-Console app to convert different distance measures from the metric system.
+Console app to convert different length measures from the metric system.
 
 
 ## Installation
@@ -15,7 +15,10 @@ You should put a .txt file called <b>measures.txt</b> in the proyect root direct
 
 The file should have one conversion information per line, as follows: <br>
 magnitude unit targetUnit<br>
-anotherMagnitude unit targetUnit
+anotherMagnitude unit targetUnit<br>
+
+All units should be written following the International Metric System prefix convention. You can find more information here: https://www.nist.gov/pml/weights-and-measures/metric-si-prefixes 
+Remember, <b>units of length</b>
 
 Then you simply execute:
 ```bash
