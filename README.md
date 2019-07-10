@@ -26,6 +26,8 @@ python run.py
 ```
 A "convertedMeasures" file will be generated.
 
+You can find an example on the "measuresExample.txt" file.
+
 ## Dependencies
 You should have installed python 3.0 or newer.
 
