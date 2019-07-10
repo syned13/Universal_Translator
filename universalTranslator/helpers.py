@@ -8,6 +8,12 @@ def getUnit(letter):
         return 0.01
     elif l == "mm":
         return 0.001
+    elif l == "dam":
+        return 10
+    elif l == "dm":
+        return 10
+    elif l == "hm":
+        return 100
 
 def convert(magnitude,current,future):
 
